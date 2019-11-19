@@ -1,0 +1,153 @@
+/* 
+
+  
+
+
+span {
+  padding: 20px ;
+}
+#link {
+  color: #0060B6;
+  text-decoration: none;
+}
+#link:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.toutpost {
+  display: flex ;
+  flex-direction: column ;
+  padding : 30px ;
+  flex-wrap: wrap ; 
+}
+.PostTitle {
+  font-size: 18px ; 
+  
+}
+.profil {
+  width: 50px ; 
+  height: 50px;
+  margin-left: 110px ;
+  padding-bottom: 10px;
+}
+.Post {
+  display: flex ; 
+
+}
+.comments {
+  display: flex ; 
+  border : 1px solid blue ; 
+  border-radius: 5px ;
+  width: 600px ; 
+  flex-wrap: wrap  ;
+  justify-content: center ; 
+  margin: 10px ;
+
+}
+*/
+.img {
+  width: 30%; 
+  display: block;
+ 
+  margin: auto;
+}
+.coord {
+  display:flex; 
+  flex-direction: column ;
+  margin-bottom: 10px ;
+}
+.products {
+ 
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px ;
+ width: 350px ; 
+ height: 400px ;
+  color: rgb(116, 116, 116);
+}
+.usersbody {
+  display: flex ; 
+  justify-content: space-around ;
+margin: auto;
+  flex-wrap: wrap ; 
+  margin: auto ;
+}
+CardBody {
+  height: 400px ;
+}
+
+.imgcom {
+  display: flex ;
+  align-items:center ;
+  margin: auto;
+  border:solid ;
+  width:300px ;
+  
+}
+.identifier{
+  display:flex;
+  padding-top:10px;
+  
+}
+.identifier-name{
+  padding-left: 20px;
+  font-weight:bold ;
+ 
+}
+.identifier-txt{
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size:15px;
+  text-align:justify;
+  color:gray;
+}
+.total-div{
+  background:#F2F9FF;
+  display:flex;
+  flex-direction:column;
+  width:50%;
+  justify-content:center;
+  margin:auto;
+  line-height: 30px;
+}
+.comments {
+  border-left: 0.1px solid #A7AEB4;
+  border-right: 0.1px solid #A7AEB4;
+  border-bottom: 0.1px solid #A7AEB4;
+}
+.pic{
+  margin-left:10px;
+}
+.Post{
+  display: felx ; 
+  border: 0.1px solid #A7AEB4;
+  margin: 20px 40px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 2px 4px 7px gray;
+  width:25% ;
+  height : auto ;
+}
+.post:hover{
+  flex-grow: 1;
+}
+.toutpost {
+  display:flex ; 
+  justify-content:flex-start; 
+  flex-wrap: wrap;
+  margin-left: 40px;
+
+ 
+
+
+}
+.image {
+  width: 100% ;
+  padding:20px;
+}
+.PostTitle{
+  font-weight: bold ; 
+
+}
